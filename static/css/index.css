@@ -38,19 +38,13 @@ body {
 #jumbotron-main .btn {
   border: 2px solid white;
   color: white;
-}
-
-#jumbotron-main .btn:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: transparent;
+  margin: 5px;
 }
 
 #jumbotron-main .btn:nth-of-type(1) {
   background-color: white;
   color: darkblue;
-}
-
-#jumbotron-main .btn:nth-of-type(1):hover {
-  background-color: rgba(255, 255, 255, 0.9);
 }
 
 #recent-articles {
