@@ -1,0 +1,95 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+  padding: 0px 15px;
+}
+
+.nav-item {
+  padding: 0px 15px;
+}
+
+#jumbotron-main {
+  background: -moz-linear-gradient(0% 50% 0deg,rgba(27, 20, 100, 1) 0%,rgba(21, 39, 118, 1) 25.41%,rgba(7, 89, 165, 1) 76.78%,rgba(0, 113, 188, 1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(27, 20, 100, 1) 0%, rgba(21, 39, 118, 1) 25.41%, rgba(7, 89, 165, 1) 76.78%, rgba(0, 113, 188, 1) 100%);
+  background: -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(27, 20, 100, 1) ),color-stop(0.2541,rgba(21, 39, 118, 1) ),color-stop(0.7678,rgba(7, 89, 165, 1) ),color-stop(1,rgba(0, 113, 188, 1) ));
+  background: -o-linear-gradient(0deg, rgba(27, 20, 100, 1) 0%, rgba(21, 39, 118, 1) 25.41%, rgba(7, 89, 165, 1) 76.78%, rgba(0, 113, 188, 1) 100%);
+  background: -ms-linear-gradient(0deg, rgba(27, 20, 100, 1) 0%, rgba(21, 39, 118, 1) 25.41%, rgba(7, 89, 165, 1) 76.78%, rgba(0, 113, 188, 1) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#1B1464', endColorstr='#0071BC' ,GradientType=0)";
+  background: linear-gradient(90deg, rgba(27, 20, 100, 1) 0%, rgba(21, 39, 118, 1) 25.41%, rgba(7, 89, 165, 1) 76.78%, rgba(0, 113, 188, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1B1464',endColorstr='#0071BC' , GradientType=1);
+  margin-top: 70px;
+  height: 500px;
+  padding-top: 120px;
+  border-radius: 0px;
+}
+
+#jumbotron-main .lead {
+  color: white;
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+#jumbotron-main .btn-group {
+  margin-top: 10px;
+}
+
+#jumbotron-main .btn {
+  border: 2px solid white;
+  color: white;
+}
+
+#jumbotron-main .btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#jumbotron-main .btn:nth-of-type(1) {
+  background-color: white;
+  color: darkblue;
+}
+
+#jumbotron-main .btn:nth-of-type(1):hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#recent-articles {
+  margin-top: 80px;
+  text-align: center;
+}
+
+#recent-articles h1 {
+  margin-bottom: 30px;
+}
+
+#upcoming-events {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#upcoming-events h1 {
+  margin-bottom: 40px;
+}
+
+.row-striped:hover {
+  background-color: #efefef;
+  border-left: 4px #000000 solid;
+}
+
+.row-striped {
+  background-color: #ffffff;
+  border-left: 4px #efefef solid;
+}
+
+.row-striped {
+    padding: 15px 0;
+}
+
+footer img {
+  filter: grayscale(100%);
+}
+
+footer {
+  margin-bottom: 0;
+}
