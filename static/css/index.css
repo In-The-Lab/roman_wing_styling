@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "Graphik";
+    src: url("../assets/fonts/Graphik-400-Regular.otf");
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Graphik";
 }
 
 .navbar-brand {
@@ -25,65 +30,45 @@ body {
   border-radius: 0px;
 }
 
-#jumbotron-main .lead {
-  color: white;
-  font-size: 36px;
-  margin-top: 10px;
-}
-
-#jumbotron-main .btn-group {
-  margin-top: 10px;
-}
-
-#jumbotron-main .btn {
-  border: 2px solid white;
-  color: white;
-  background-color: transparent;
-  margin: 5px;
-}
-
-#jumbotron-main .btn:nth-of-type(1) {
-  background-color: white;
-  color: darkblue;
-}
-
-#recent-articles {
-  margin-top: 80px;
-  text-align: center;
-}
-
-#recent-articles h1 {
-  margin-bottom: 30px;
-}
-
-#upcoming-events {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-#upcoming-events h1 {
+#home-pill-tabs {
   margin-bottom: 40px;
 }
 
-.row-striped:hover {
-  background-color: #efefef;
-  border-left: 4px #000000 solid;
+.nav-pills .nav-item {
+  margin: 0;
+  padding: 2px;
 }
 
-.row-striped {
-  background-color: #ffffff;
-  border-left: 4px #efefef solid;
+.nav-pills .nav-item a {
+  color: rgba(7, 89, 165, 1);
 }
 
-.row-striped {
-    padding: 15px 0;
+.nav-pills .nav-item a:hover {
+  color: darkblue;
 }
 
-footer img {
-  filter: grayscale(100%);
+.nav-pills .nav-item .active {
+  background-color: rgba(7, 89, 165, 1);
+}
+
+.nav-pills .nav-item .active:hover {
+  background-color: rgba(7, 89, 165, 1);
+  color: white;
 }
 
 footer {
-  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+#recent-articles button {
+  margin-top: 10px;
+}
+
+@media (min-width: 576px) and (max-width: 768px)
+{
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
 }
